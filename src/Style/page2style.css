@@ -1,0 +1,98 @@
+.id{
+    width: 40px !important;
+}
+.body{
+    min-width: 533px;
+}
+
+
+
+  .loginContainer{
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .TableoooContainer{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 950px;
+  }
+
+  .visIcon:hover{
+    color:black;
+   cursor: pointer;
+   font-size: 30px;
+  }
+  .ediIcon:hover{
+    color:black;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  .delIcon:hover{
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+ 
+
+  .cell{
+    color: white;
+    font-size: medium;
+  }
+
+  .modelcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardEdit{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    background-image: linear-gradient(rgb(25, 25, 26),rgb(27, 28, 29));
+    /* background-color: rgba(43, 42, 42, 0.403); */
+    padding: 16px;
+  }
+
+  .textinp{
+    height: 100px;
+    width: 500px;
+    border: none;
+    padding: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
+    color: black;
+  }
+
+  .cardhead{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue;
+    /* text-decoration: underline 3px solid; */
+  }
+
+  .fd{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+  }
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}

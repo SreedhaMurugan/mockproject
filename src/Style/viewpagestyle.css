@@ -1,0 +1,38 @@
+.viewpagfge{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 745px;
+    width: 100%;
+   /* background-image: linear-gradient(rgb(232, 44, 232),orange); */
+   background-color: rgba(14, 14, 14, 0.885);
+}
+
+.coler{
+    color: black;
+    gap: 20px;
+    border-bottom: 2px solid rgb(48, 89, 202);
+    width: auto;
+
+}
+
+.viewCard{
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+}
+
+.btnbk{
+    display: flex;
+   align-self: flex-end;
+  justify-self: flex-end;
+   background-color: aliceblue;
+   float: right;
+}
+
+.uink{
+    text-decoration: none;
+    color: white;
+    
+}
